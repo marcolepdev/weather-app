@@ -4,7 +4,7 @@ btn.onclick = async function getData() {
 
     let city = document.getElementById('input-field').value;
 
-    const api_key = 'YOUR_API_KEY';
+    const api_key = '414beaab5db8cb29a29877a4482aae94';
 
         //API CALL  with axios                   
             axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`)
