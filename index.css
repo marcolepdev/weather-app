@@ -1,0 +1,128 @@
+    /* IMPORT FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+    /* IMPORT FONT */
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Lato;
+    font-weight: 300;    
+    background-color: #808080;   
+    
+}
+
+
+
+h2 {
+
+    font-weight: 300;
+
+}
+
+
+
+.main-container {
+
+    color:#FFFFFF;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    top:60px;
+    width:400px;
+    height:200px;
+    font-family: Lato;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.wrap-container{
+    display: inherit;
+    width:360px;
+    height:100px;
+    background-color: #4c5866;
+    justify-content: inherit;
+    border-radius: 5pt;
+    position: relative;
+    top:30px;
+    
+}
+
+#input-field {
+    background-color: transparent;
+    color:#FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-bottom-color: block;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    outline:none;
+    width:200px;
+    height:30px;
+    position: relative;
+    top:35px;
+}
+
+
+
+input:focus{
+    color:#FFFFFF;
+}
+::placeholder{
+    color:#FFFFFF;
+    text-align: left;
+}
+
+#search {
+    background-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    outline:none;
+    cursor: pointer;
+    height:30px;
+    color:#FFFFFF;
+    transition: 0.3s;
+    position: relative;
+    top:35px;
+    font-size: 11px;
+    
+}
+
+
+
+
+
+.data-container {
+
+    background-color: #4c5866;
+    color:white;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    border-radius: 5pt;
+    top:70px;
+    width:300px;
+    height:350px;
+    display: flex;
+    justify-content: center;
+
+text-align: center;
+
+}
+
+
+.data-inner-container {
+    position: relative;
+    top:40px;
+
+}

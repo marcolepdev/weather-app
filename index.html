@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Weather App</title>
+    <!--axios CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+<div class="main-container">
+<div class="input-container">
+    
+    <h2>What's the weather like today?</h2>
+    <div class="wrap-container">
+    <input placeholder="Type your city or State here"type="text" id="input-field" spellcheck="true"><span><button id="search">SEARCH</button></span>
+</div>
+</div>
+
+    </div>
+    <div class="data-container">
+<div class="data-inner-container">
+        <p>City: <span id="city"></span></p><br>
+        <p>Country: <span id="country"></span></p><br>
+        <p>Weather: <span id="weather"></span></p><br>
+        <p>Humidity: <span id="hum"></span></p><br>
+        <p>Feels like: <span id="feels-like"></span></p><br>
+        
+        <p>Max Temp: <span id="max-temp"></span></p><br>
+        <p>Min Temp: <span id="min-temp"></span></p><br>
+    </div>
+    </div>
+
+
+
+
+<script src="./dist/bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+
+</body>
+</html>
